@@ -9,3 +9,8 @@ def solution(s):
             else:
                 stack.pop()  # '('가 ')'와 짝을 이루면 stack에서 '(' 하나 제거
     return stack==[]
+
+# def solution(s):
+#     s = list(s)
+#     print('Hello Python')
+#     return True if s.count('(')==s.count(')') and s[0]==('(') and s[-1]==(')') else False
