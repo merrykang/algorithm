@@ -1,4 +1,10 @@
 {
   "python.analysis.typeCheckingMode": "basic",
-  "terminal.integrated.automationShell.windows": "${env:windir}\\System32\\cmd.exe"
+  "terminal.integrated.automationShell.windows": "${env:windir}\\System32\\cmd.exe",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  
 }
