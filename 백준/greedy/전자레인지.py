@@ -1,5 +1,5 @@
 """
-ΌτΔΪµω
+μμ½”λ”©
  - https://claude-u.tistory.com/235
 """
 T = int(input())
