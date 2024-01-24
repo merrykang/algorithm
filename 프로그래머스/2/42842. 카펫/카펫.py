@@ -4,8 +4,9 @@ def solution(brown, yellow):
     i=1
     while i <=  yellow_wh//2:
         if i * (yellow_wh-i) == yellow:
-            answer.append((yellow_wh-i)+2)
-            answer.append(i+2)
-            break
+            # answer.append((yellow_wh-i)+2)
+            # answer.append(i+2)
+            # break
+            return [(yellow_wh-i)+2, i+2]
         i=i+1
-    return answer
+    # return answer
