@@ -8,10 +8,11 @@ def solution(s):
                 return False
             else:
                 check.pop()
-    if len(check) == 0:
-        return True
-    else:
-        return False
+    return len(check) == 0
+    # if len(check) == 0:
+    #     return True
+    # else:
+    #     return False
         
         # if len(check) == 0 and i == ')':  # check.length 아니고 len(check) 
         #     return False  # 참 또는 거짓: 시작이 대문자
