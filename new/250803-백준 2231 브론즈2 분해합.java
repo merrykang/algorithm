@@ -1,6 +1,10 @@
 import java.util.*;
 import java.io.*;
 
+// 아이디어 생각
+// String.valueOf()
+// constructro.get(0)
+// 예외 처리
 public class Main {
 
   public static void main(String[] args) throws IOException {
